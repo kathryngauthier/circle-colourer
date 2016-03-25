@@ -1,0 +1,19 @@
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.ball {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  border-radius: 50px;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
